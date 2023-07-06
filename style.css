@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@1&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+li, a {
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(255, 213, 96);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navsLink{
+    list-style: none;
+}
+
+.navsLink li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navsLinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navsLinks li a hover{
+    color:aquamarine;
+}
+
+.frontPageImg{
+    justify-content: center;
+}
