@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     background-color: rgb(0, 0, 0);
-    color: rgb(207,149,51);
 }
 
 li, a {
@@ -73,27 +72,77 @@ footer {
     font-family: 'Ysabeau Office', sans-serif;
     font-weight: 500;
     font-size: 18px;
-    text-decoration:none
+    text-decoration:none;
 }
 
 /*About Me Style*/
 .aboutMeBox{
+    color: rgb(207,149,51);
     margin-top: 7%;
     text-align: center;
     font-family: 'Mate SC', serif;
     font-weight: 500;
 }
+
 /*End of About Me Style*/
 
 /*Contact Style*/
 .contactBox{
+    margin: auto;
     border-radius: 3%;
     margin-top: 2%;
     text-align: center;
     font-family: 'Mate SC', serif;
     font-weight: 500;
+    font-size: 25px;
     border-style: double;
     color: rgb(207,149,51);
     border-color: rgb(109, 79, 28);
+    width: 50%;
+}
+
+h2{
+    text-decoration:underline;
 }
 /*End of Contact Style*/
+
+
+/*Start of Back in Time Style*/
+input {
+    display: none;
+}
+
+label{
+    display:block;
+    width: 150px;
+    border-radius: 5px;
+    color: bisque;
+    margin-top: 5%;
+    font-family: 'Mate SC', serif;
+    font-weight: 500;
+    background-color: rgb(207,149,51);
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin: 30px;
+}
+
+.photoDisplay{
+    height: 500px;
+    border-radius: 3%;
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    font-weight: 500;
+    font-size: 25px;
+    border-style: double;
+    color: rgb(207,149,51);
+    border-color: rgb(109, 79, 28);
+    margin: auto;
+    width: 50%
+}
+
+
+
+/*End of Back in Time Style*/
