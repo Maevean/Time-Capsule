@@ -84,6 +84,11 @@ footer {
     font-weight: 500;
 }
 
+.me{
+    justify-content: left;
+    border-radius: 50%;
+}
+
 /*End of About Me Style*/
 
 /*Contact Style*/
