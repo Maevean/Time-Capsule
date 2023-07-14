@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Time Capsule</title>
+    <title>Back in Time</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <!--Nav and Logo-->
-        <img class="logo" src="TClogo.png" alt="logo">
+        <a href="main.html"><img class="logo" src="TClogo.png" alt="logo"></a>
         <nav>
             <ul class="navsLink">
                 <li><a href="main.html">Home</a></li>
@@ -22,20 +22,33 @@
         </nav>
     </header>   
     
-    <!--Upload Photo-->
-    <form action="#">
-        <label for="photo">Upload Photo</label>
-        <input type="file" id="photo"/ name="photo" accept="image/*">
-    </form>
+    <input type="file" id="image_input" accept="image/png, image/jpg">
 
-    <div class="photoDisplay">
-        <!--WIP-->
-        Display Photo(s) Here
+    <div id="display_image">
+
     </div>
 
-    <<!--Footer-->
+    <!--Upload Photo-->
+    <div>
+        <form action="#" id="savedImgs">
+            <label for="photo">Upload Photo</label>
+            <input type="file" id="photo" name="photo" accept="image/*  multiple="multiple">
+            <output id="results">
+        </form>
+
+        <div class="photoDisplay" id="photoDisplay">
+        <!--WIP-->
+            Display Photo(s) Here<br><br>
+            <img class="blurbies" src="blurbies.jpg" alt="blurbies">
+            <img class="CnJ" src="CnJ.png" alt="CnJ">
+            <img class="AnP" src="AnP.jpg" alt="AnP">
+        </div>
+    </div>
+
+
+    <!--Footer-->
     <footer>
-        <p>Author: Jessica Monize ::: Email:<a href="fakeMail">timecapsule@example.com</a></p>   
+        <p>Author: Jessica Monize ::: Email:<a href="mailto:jesmoniz@uat.edu"> timecapsule@support.com</a></p>   
     </footer>
 
 </body>

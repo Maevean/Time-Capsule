@@ -5,7 +5,8 @@
 On the Home Page (main) we have the logo, navigation, and footer displayed along with information on the website.Image that goes along with it is TC.png and TClogo.png
 
 Back In Time page is where we go to upload and display the images, here we also find the navigation with the logo. 
-The bottom also displays the footer. Image that goes along with it is TClogo.png
+The bottom also displays the footer. Image that goes along with it is TClogo.png, AnP.jpg, blurbies.jpg, CnJ.png. Could not get the display to work with uploaded images,
+so I hardwired some in for example. 
 
 About me page displays the header and footer along with a photo of myself and the text about me. Image that goes along with it is me.jpg and TClogo.png
 
